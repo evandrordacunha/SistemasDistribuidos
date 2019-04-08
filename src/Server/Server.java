@@ -48,9 +48,10 @@ public class Server {
 			if(chave != null)
                             System.out.println("### DADOS ATUALIZADOS ###");
 				System.out.println(chave.getAddress().toString() + arquivos.get(chave));
+                                s = s+arquivos.get(chave);
 		}      
             return s;
-            
+     
         }
  
         
